@@ -1,0 +1,6 @@
+{
+  "name": "Sub.art",
+  "description": "Professional AI-powered subtitle and caption generator for video creators. Features include waveform timeline editing, ASS export, auto-save, multi-track side-by-side translation editing, and speaker diarization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

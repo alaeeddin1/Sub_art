@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .parent { width: 400px; height: 300px; background: red; display: flex; align-items: center; justify-content: center; }
+  .wrapper { position: relative; max-width: 100%; max-height: 100%; display: flex; background: blue; }
+  .video { max-width: 100%; max-height: 100%; display: block; }
+  .overlay { position: absolute; inset: 0; border: 5px solid yellow; pointer-events: none; }
+</style>
+</head>
+<body>
+  <div class="parent">
+    <div class="wrapper">
+      <img class="video" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='200'%3E%3Crect width='100' height='200' fill='green'/%3E%3C/svg%3E" />
+      <div class="overlay"></div>
+    </div>
+  </div>
+</body>
+</html>
